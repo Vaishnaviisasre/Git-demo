@@ -1,0 +1,4 @@
+FROM openjdk:11-jre-slim
+WORKDIR /app
+COPY your-java-application.jar /app/
+CMD ["java", "-jar", "your-java-application.jar"]
